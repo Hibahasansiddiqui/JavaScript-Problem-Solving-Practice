@@ -1,0 +1,17 @@
+.button1 {
+    background-color: red;
+    display: inline-block;
+    color: black;
+}
+
+.button2 {
+    background-color: blue;
+    display: inline-block;
+    color: black;
+}
+
+.button3 {
+    background-color: green;
+    display: inline-block;
+    color: black;
+}
