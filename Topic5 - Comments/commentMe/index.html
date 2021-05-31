@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<script>
+
+function add(){ //inserted add function to add two variables
+var a,b,c;
+a=Number(document.getElementById("first").value);
+console.log(a) //denoted first variable by a
+
+b=Number(document.getElementById("second").value);
+console.log(b) //denoted second variable by b
+
+c= a + b; //written the equation that needs to be calcuted
+document.getElementById("answer").value= c; // c is the result or "return" value for the sum value of the two numbers.
+console.log(c= a + b)
+
+//console.log is used to print each step
+
+}
+</script>
+</head>
+
+<body>
+Enter the First number : <input id="first">
+Enter the Second number: <input id="second">
+<button onclick="add()">Add</button>
+<input id="answer">
+</body>
+
+</html>
