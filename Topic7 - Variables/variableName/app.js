@@ -8,7 +8,7 @@ function two() {
     console.log(x);
 }
 
-//It is not printing. Functions do not through an error though.
+//It is not printing. Functions do not show an error though.
 
 //Declare a variable using var
 
@@ -34,4 +34,4 @@ function third() {
 console.log(numb);
 }
 
-//Yes we can access global variable in the functions
+//Yes we can access global variable in the function
