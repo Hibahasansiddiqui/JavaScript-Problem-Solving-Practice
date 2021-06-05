@@ -3,3 +3,7 @@ function Double(paisa) {
     console.log(answer);
     return answer;
 }
+
+Double(10)
+Double(3)
+Double(5)
